@@ -6,7 +6,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    # path("api/", include("alx_travel_app.urls")),
+    path("api/", include("alx_travel_app.urls")),
 ]
 
 # Include swagger URLs separately
